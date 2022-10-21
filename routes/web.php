@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/aboutme', function () {
-    return view('contact');
+    return view('aboutme');
 });
 
 Route::get('/catalog', function () {
