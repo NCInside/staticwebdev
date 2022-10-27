@@ -9,7 +9,7 @@
     <p class="text-white text-center mt-12">Purchase Premium Quality Miniatures Today</p>
     <div class="flex justify-center shadow-2xl">
         <a href="/catalog">
-            <div class="bg-orange-400 mt-20 border-2 border-opacity-50 border-white opacity-90">
+            <div class="bg-orange-400 mt-20 border-2 border-opacity-50 border-white opacity-90 hover:bg-orange-300 text-gray-800 font-semibold py-2 px-4 rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <p class="text-white m-4">Get Started</p>
             </div>
         </a>
@@ -19,7 +19,7 @@
 <div class="bg-black">
     <div id="default-carousel" class="relative" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div class="overflow-hidden rounded-lg md:h-96">
              <!-- Item 1 -->
             <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
                 <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
@@ -38,10 +38,10 @@
         </div>
     </div>
 
-    <h1 class="text-white text-center text-3xl font-bold">Browse our Catalog</h1>
-    <div class="flex justify-center shadow-2xl">
-        <a class="mt-8 mb-20" href="/catalog">
-            <div data-aos="fade-up" class="bg-orange-400 border-2 border-opacity-50 border-white opacity-90">
+    <h1 class="text-white text-center text-3xl font-bold" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="10" data-aos-offset="0">Browse our Catalog</h1>
+    <div class="flex justify-center shadow-2xl" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="0" data-aos-offset="0">
+        <a class="mt-4 mb-20" href="/catalog">
+            <div class="bg-orange-400 mt-6 border-2 border-opacity-50 border-white opacity-90 hover:bg-orange-300 text-gray-800 font-semibold first:rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <p class="text-white m-4">Browse</p>
             </div>
         </a>
@@ -53,7 +53,7 @@
     {{-- What and Why --}}
     <div class="flex flex-col">
         <div class="self-start">
-            <div data-aos="fade-down-right" class="ml-48 flex flex-col items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
+            <div data-aos="fade-down-right" data-aos-duration="400" class="ml-48 flex flex-col items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
                 {{--<img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">--}}            
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">What is Primitive Garage?</h5>
@@ -63,7 +63,7 @@
         </div>
         
         <div class="self-end">
-            <div data-aos="fade-up-left" class="mr-48 mt-24 flex flex-col items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
+            <div data-aos="fade-up-left" data-aos-duration="300" class="mr-48 mt-24 flex flex-col items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
                 {{-- <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt=""> --}}
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Why is Primitive Garage?</h5>
@@ -71,18 +71,28 @@
                 </div>
             </div>
         </div>
+
+        {{-- About me --}}
+        <div class="self-center">
+            <div data-aos="zoom-out-up" class="flex mt-24 flex-col items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
+                <img class="object-cover w-full h-full md:h-auto md:w-48 px-3 md:rounded-none md:rounded-l-lg" src="img/masthead.jpg" alt="">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Who is Primitive Garage?</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente pariatur architecto doloremque magni tenetur excepturi voluptas amet cum ea numquam, atque veritatis corporis expedita nobis dolor necessitatibus, ipsum optio obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et suscipit illo ad eaque reprehenderit dolorem amet veritatis minus, ipsum alias, impedit cumque quo voluptatibus laudantium iusto eligendi. Incidunt, nam placeat!</p>
+                </div>
+            </div>
+        </div>
     </div>
-    
 
     {{-- Testimonial yang free --}}
     <div>
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+        <div data-aos="zoom-in-up" class="mt-24 pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16 lg:px-6 bg-white">
             <div class="mx-auto max-w-screen-sm">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Testimonials</h2>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-black">Testimonials</h2>
                 <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind</p>
             </div> 
             <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
-                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+                <figure class="flex flex-col justify-center items-center p-8 text-center border-b border-gray-200 md:p-12 lg:border-r dark:border-gray-700">
                     <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Speechless with how easy this was to integrate</h3>
                         <p class="my-4">"I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
@@ -140,9 +150,6 @@
                         </div>
                     </figcaption>    
                 </figure>
-            </div>
-            <div class="text-center">
-                <a href="#" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Show more...</a> 
             </div>
         </div>
         
