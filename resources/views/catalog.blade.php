@@ -5,7 +5,7 @@
 @section('content')
 
     {{-- masthead --}}
-    <div class="bg-filled bg-no-repeat bg-bottom pt-32 pb-64 relative" style="background-image: url('img/masthead.jpg')">
+    <div class="bg-filled bg-no-repeat bg-bottom pt-32 pb-64 relative" style="background-image: url('img/catalogmasthead.jpg')">
         <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">All Miniatures</h1>
     </div>
 
