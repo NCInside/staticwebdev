@@ -7,6 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>@yield('title')</title>
     <style>
@@ -20,6 +21,10 @@
             .terpaksa {
                 max-width: 40%;  
                 height: auto;  
+            }
+            .terpaksa2{
+                max-width: 30%;
+                height: auto;
             }       
         }    
     </style>
@@ -53,7 +58,7 @@
   
     @yield('content')
 
-    <footer class="p-7 bg-gray-900 sm:p-6 dark:bg-gray-100">
+    <footer class="p-7 bg-black sm:p-6">
         <div class="mx-3 md:mx-10 my-3">
             <div>
                 <h1 class="text-lg sm:text-3xl text-white font-bold">PRIMITIVE <b class="text-orange-600">-</b> GARAGE</h1>

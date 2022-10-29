@@ -17,6 +17,26 @@ module.exports = {
                 '0': '0ms',
                 '3000': '3000ms',
             },
+            animation:{
+                blob: "blob 8s infinite",
+            },
+            keyframes:{
+                blob: {
+                    "0%" : {
+                        transform: "translate(0px, 0px) scale(1)",
+                    },
+                    "33%" : {
+                        transform: "translate(15px, -30px) scale(1.05)",
+                    },
+                    "66%" : {
+                        transform: "translate(-15px, 20px) scale(0.95)",
+                    },
+                    "100%" : {
+                        transform: "translate(0px, 0px) scale(1)",
+                    },
+                }
+            },
+
         },
     },
 
