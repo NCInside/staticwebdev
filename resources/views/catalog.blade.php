@@ -12,7 +12,7 @@
 
     <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 p-4 content-center bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500">
         
-    <div class="max-w-sm">
+    <div data-aos="fade-up" class="max-w-sm">
         <a href="#">
             <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
         </a>
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="max-w-sm">
+    <div data-aos="fade-up" class="max-w-sm">
         <a href="#">
             <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
         </a>
@@ -48,7 +48,7 @@
         </div>
     </div>
 
-    <div class="max-w-sm">
+    <div data-aos="fade-up" class="max-w-sm">
         <a href="#">
             <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
         </a>
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    <div class="max-w-sm">
+    <div data-aos="fade-up" class="max-w-sm">
         <a href="#">
             <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
         </a>
@@ -84,7 +84,7 @@
         </div>
     </div>
 
-    <div class="max-w-sm">
+    <div data-aos="fade-up" class="max-w-sm">
         <a href="#">
             <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
         </a>
