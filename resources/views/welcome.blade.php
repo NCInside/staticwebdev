@@ -78,10 +78,18 @@ background-size: cover;">
     <div data-aos="fade-in" class="hidden lg:block absolute top-[32rem] right-[11rem] w-96 h-96 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob" ></div>
     <div data-aos="fade-in" class="hidden lg:block absolute top-[40rem] right-[41rem] w-72 h-52 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
 
+    <div data-aos="fade-in" class="hidden lg:block absolute top-[63rem] right-96 w-[39rem] h-72 bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000" ></div>
+    <div data-aos="fade-in" class="hidden lg:block absolute top-[64rem] right-[14rem] w-96 h-96 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob" ></div>
+    <div data-aos="fade-in" class="hidden lg:block absolute top-[72rem] left-[15rem] w-72 h-52 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+
+    <div data-aos="fade-in" class="hidden lg:block absolute top-[60rem] right-[20rem] w-[39rem] h-72 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000" ></div>
+    <div data-aos="fade-in" class="hidden lg:block absolute top-[63rem] right-[15rem] w-96 h-96 bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob" ></div>
+    <div data-aos="fade-in" class="hidden lg:block absolute top-[74rem] left-[27rem] w-[30rem] h-52 bg-orange-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+
 
     {{-- What and Why --}}
     <div class="flex flex-col">
-        <div class="self-start mx-3 lg:mx-0 opacity-90">
+        <div class="self-start mx-3 lg:mx-0">
             <div data-aos="fade-up" class="lg:ml-48 flex flex-col-reverse items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-3xl overflow-hidden">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">What is Primitive Garage?</h5>
@@ -91,7 +99,7 @@ background-size: cover;">
             </div>
         </div>
         
-        <div class="self-end mx-3 lg:mx-0 opacity-90">
+        <div class="self-end mx-3 lg:mx-0">
             <div data-aos="fade-up" class="lg:mr-48 mt-24 flex flex-col items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-3xl overflow-hidden">
                 <img class="terpaksa object-cover w-full h-full rounded-t-lg md:h-auto md:w-52 md:rounded-none md:rounded-l-lg" src="img/what.jpg" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
@@ -103,7 +111,7 @@ background-size: cover;">
 
         <section data-aos="fade-up" class="font-sans antialiased text-gray-900 leading-normal tracking-wider md:mt-32 md:mb-16">
             <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-24 mb-16 lg:my-0">
-                <div id="profile" class="relative w-full lg:w-2/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-90 mx-6 lg:mx-0">
+                <div id="profile" class="relative w-full lg:w-2/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white mx-6 lg:mx-0">
                     <div class="p-4 md:p-12 text-center lg:text-left">
                         <!-- Image for mobile view-->
                         <div class="block md:hidden rounded-full lg:rounded-xl shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('img/who.jpg')"></div>
