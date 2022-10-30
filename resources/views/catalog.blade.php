@@ -9,103 +9,105 @@
         <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">All Miniatures</h1>
     </div>
 
+    <div class="bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 p-4 content-center">
+            
+            <div data-aos="fade-up" class="max-w-sm">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
+                </a>
+                <div class="pt-3 pl-2 content-start">
+                    <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <div class="flex flex-col">
+                        <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
+                            Reviews
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 p-4 content-center bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500">
+            <div data-aos="fade-up" class="max-w-sm">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
+                </a>
+                <div class="pt-3 pl-2 content-start">
+                    <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <div class="flex flex-col">
+                        <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
+                            Reviews
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="max-w-sm">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
+                </a>
+                <div class="pt-3 pl-2 content-start">
+                    <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <div class="flex flex-col">
+                        <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
+                            Reviews
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="max-w-sm">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
+                </a>
+                <div class="pt-3 pl-2 content-start">
+                    <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <div class="flex flex-col">
+                        <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
+                            Reviews
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="max-w-sm">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
+                </a>
+                <div class="pt-3 pl-2 content-start">
+                    <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <div class="flex flex-col">
+                        <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
+                            Reviews
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <canvas id="motor" class="w-full block"></canvas>
+        </div>
         
-    <div data-aos="fade-up" class="max-w-sm">
-        <a href="#">
-            <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
-        </a>
-        <div class="pt-3 pl-2 content-start">
-            <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="flex flex-col">
-                <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
-                    Reviews
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div data-aos="fade-up" class="max-w-sm">
-        <a href="#">
-            <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
-        </a>
-        <div class="pt-3 pl-2 content-start">
-            <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="flex flex-col">
-                <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
-                    Reviews
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div data-aos="fade-up" class="max-w-sm">
-        <a href="#">
-            <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
-        </a>
-        <div class="pt-3 pl-2 content-start">
-            <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="flex flex-col">
-                <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
-                    Reviews
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div data-aos="fade-up" class="max-w-sm">
-        <a href="#">
-            <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
-        </a>
-        <div class="pt-3 pl-2 content-start">
-            <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="flex flex-col">
-                <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
-                    Reviews
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div data-aos="fade-up" class="max-w-sm">
-        <a href="#">
-            <img class="rounded-t-lg" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" alt="">
-        </a>
-        <div class="pt-3 pl-2 content-start">
-            <hr class="my-1 mr-2 w-auto h-1 bg-orange-600 rounded border-0 md:my-2">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-900">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="flex flex-col">
-                <button class="mt-auto text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium text-sm px-5 py-2.5 text-center dark:bg-orange-500 dark:hover:bg-orange-700 dark:focus:ring-orange-800" type="button" data-modal-toggle="defaultModal">
-                    Reviews
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <canvas id="motor" class="w-full block"></canvas>
-    </div>
-
     </div>
 
     {{-- <div class="bg-black flex-row">
