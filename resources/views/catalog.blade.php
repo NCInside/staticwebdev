@@ -102,7 +102,20 @@
         </div>
     </div>
 
+    <div>
+        <canvas id="motor" class="w-full block"></canvas>
     </div>
+
+    </div>
+
+    {{-- <div class="bg-black flex-row">
+        <div class="w-full content-center">
+            <h1 class="text-5xl text-white text-center">Seek The Best</h1>
+        </div>
+        <div class="container bg-black">
+            
+        </div>
+    </div> --}}
     
     <!-- Main modal -->
     <div id="defaultModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-32 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
@@ -201,5 +214,118 @@
             </div>
         </div>
     </div>
+
+    <script type="module">
+
+        let model;
+
+        const canvas = document.querySelector('#motor');
+        const renderer = new THREE.WebGLRenderer({canvas, alpha: true});
+        renderer.setPixelRatio(window.devicePixelRatio)
+        //renderer.setSize( window.innerWidth, window.innerHeight );
+
+        const fov = 95;
+        const aspect = 2.5;  // the canvas default
+        const near = 0.01;
+        const far = 5;
+        const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+
+        camera.position.z = 2;
+        camera.position.y = 1;
+
+        const control = new OrbitControls(camera, renderer.domElement);
+        control.enablePan = false;
+        control.maxPolarAngle = Math.PI / 2;
+        control.minPolarAngle = Math.PI / 2;
+        control.maxDistance = 2.0;
+        control.minDistance = 1.75;
+        control.enableDamping = true;
+
+
+        const scene = new THREE.Scene();
+
+        // const boxWidth = 1;
+        // const boxHeight = 1;
+        // const boxDepth = 1;
+        // const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+        // const texture = new THREE.TextureLoader().load( '/img/what.jpg' );
+        // const material = new THREE.MeshBasicMaterial({map: texture});
+        // const cube = new THREE.Mesh(geometry, material);
+
+        renderer.render(scene, camera);
+
+        const loader = new GLTFLoader();
+
+        loader.load( '/3d/motor.glb', function ( gltf ) {
+
+            console.log(gltf);
+            model = gltf.scene;
+
+            model.scale.set(0.03, 0.03, 0.03);
+            model.position.y = -0.5;
+            model.rotation.x = 4.75;
+            model.rotation.z = 1.5;
+
+            scene.add( model );
+
+        }, undefined, function ( error ) {
+
+            console.error( error );
+
+        } );
+
+        // const axesHelper = new THREE.AxesHelper( 5 );
+        // scene.add( axesHelper );
+
+        const color1 = 0xDF9B20;
+        const color2 = 0x2064DF;
+        const intensity1 = 1;
+        const intensity2 = 0.5;
+        const light1 = new THREE.DirectionalLight(color1, intensity1);
+        const light2 = new THREE.DirectionalLight(color2, intensity1);
+        const light3 = new THREE.DirectionalLight(color2, intensity2);
+        light1.position.set(-1, 2, 4);
+        light2.position.set(1, -2, -4);
+        light3.position.set(1, -2, 4);
+        scene.add(light1);
+        scene.add(light2);
+        scene.add(light3);
+
+        function render(time) {
+        time *= 0.001;  // convert time to seconds
+        
+        // cube.rotation.x = time;
+        // cube.rotation.y = time;
+
+        if (model !== undefined) {
+            model.rotation.z = time;
+        }
+
+        control.update();
+
+        if (resizeRendererToDisplaySize(renderer)) {
+            const canvas = renderer.domElement;
+            camera.aspect = canvas.clientWidth / canvas.clientHeight;
+            camera.updateProjectionMatrix();
+        }
+        
+        renderer.render(scene, camera);
+        
+        requestAnimationFrame(render);
+        }
+
+        function resizeRendererToDisplaySize(renderer) {
+            const canvas = renderer.domElement;
+            const width = canvas.clientWidth;
+            const height = canvas.clientHeight;
+            const needResize = canvas.width !== width || canvas.height !== height;
+            if (needResize) {
+                renderer.setSize(width, height, false);
+            }
+            return needResize;
+        }
+
+        requestAnimationFrame(render);
+    </script>
   
 @endsection
