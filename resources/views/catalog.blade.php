@@ -9,8 +9,8 @@
         <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">All Miniatures</h1>
     </div>
 
-    <div class="bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 p-4 content-center">
+    <div class="bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500 p-4">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 content-center">
             
             <div data-aos="fade-up" class="max-w-sm">
                 <a href="#">
@@ -104,9 +104,32 @@
 
         </div>
 
-        <div>
-            <canvas id="motor" class="w-full block"></canvas>
+        <div data-aos="fade-up" class="content-middle my-16">
+            <div class="max-w-2xl m-auto p-5">
+                <h1 class="text-center text-6xl text-orange-500">Seek the Best</h1>
+                <p class="text-lg text-center mt-3 text-orange-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam tenetur id nulla porro error doloremque similique quibusdam repudiandae modi.</p>
+            </div>
+            <div class="">
+                <canvas id="motor" class="w-full block"></canvas>
+            </div>
+            <div class="flex justify-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                <a class="mb-20" href="/catalog">
+                    <div class="bg-orange-400 border-2 px-8 border-opacity-50 border-orange-300 opacity-90 hover:bg-orange-300 text-gray-800 font-semibold first:rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                        <p class="text-white m-4">See What's New</p>
+                    </div>
+                </a>
+            </div>
         </div>
+
+        {{-- <div class="grid grid-cols-3">
+            <div class="align-middle ml-20">
+                <h1 class="text-3xl">Seek the Best</h1>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam tenetur id nulla porro error doloremque similique quibusdam repudiandae modi.</p>
+            </div>
+            <div class="col-span-2">
+                <canvas id="motor" class="w-full block"></canvas>
+            </div>
+        </div> --}}
         
     </div>
 
@@ -239,10 +262,9 @@
         control.enablePan = false;
         control.maxPolarAngle = Math.PI / 2;
         control.minPolarAngle = Math.PI / 2;
-        control.maxDistance = 2.0;
+        control.maxDistance = 1.85;
         control.minDistance = 1.75;
         control.enableDamping = true;
-
 
         const scene = new THREE.Scene();
 
@@ -280,15 +302,16 @@
         // scene.add( axesHelper );
 
         const color1 = 0xDF9B20;
-        const color2 = 0x2064DF;
+        const color2 = 0xf05252;
         const intensity1 = 1;
-        const intensity2 = 0.5;
-        const light1 = new THREE.DirectionalLight(color1, intensity1);
+        const intensity2 = 0.75;
+        const intensity3 = 1.75;
+        const light1 = new THREE.DirectionalLight(color1, intensity3);
         const light2 = new THREE.DirectionalLight(color2, intensity1);
-        const light3 = new THREE.DirectionalLight(color2, intensity2);
+        const light3 = new THREE.DirectionalLight(color2, intensity3);
         light1.position.set(-1, 2, 4);
-        light2.position.set(1, -2, -4);
-        light3.position.set(1, -2, 4);
+        light3.position.set(1, -2, -4);
+        light2.position.set(1, -2, 4);
         scene.add(light1);
         scene.add(light2);
         scene.add(light3);
