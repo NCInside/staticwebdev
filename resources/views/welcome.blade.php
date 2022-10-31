@@ -14,7 +14,7 @@ background-repeat: no-repeat;
 background-attachment: scroll;
 background-size: cover;">
     <div data-aos="zoom-in" data-aos-duration="1500">
-        <h1 class="text-center text-5xl font-bold hidden md:block" style="font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 5rem; line-height: 5rem; letter-spacing: 0.1rem; background: linear-gradient(rgba(255, 168, 62, 0.988), rgb(255, 188, 107), rgb(255, 202, 88)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">HOME TO <br><b>PRIMIVE-GARAGE</b></h1>
+        <h1 class="text-center text-5xl font-bold hidden md:block" style="font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 5rem; line-height: 5rem; letter-spacing: 0.1rem; background: linear-gradient(rgba(255, 168, 62, 0.988), rgb(255, 188, 107), rgb(255, 202, 88)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">HOME TO <br><b>PRIMITIVE-GARAGE</b></h1>
         <h1 class="text-white text-center text-3xl font-bold md:hidden block" style="font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; background: linear-gradient(rgba(255, 168, 62, 0.988), rgb(255, 188, 107), rgb(255, 202, 88)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">HOME TO <br><b class="font-extrabold">PRIMITIVE-GARAGE</b></h1>
         <p class="text-gray-100 text-center mx-4 md:mt-12 mt-6">Purchase Premium Quality Miniatures Today</p>
     </div>
@@ -31,42 +31,22 @@ background-size: cover;">
 
     <div class="bg-black w-full h-36 lg:h-72 hidden md:block" id="getstarted" ></div>
     
-<div id="controls-carousel" class="relative pointer-events-none" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden px-5 md:h-96 pointer-events-none">
-         <!-- Item 1 -->
-        <div class="duration-700 before:ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
-            <img src="img/why.jpg" class="pointer-events-none absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+    <div data-aos="fade-up" class="content-middle mb-16">
+        <div class="max-w-2xl m-auto p-5" style="font-family: 'Poppins'; background: linear-gradient(rgba(255, 168, 62, 0.988), rgb(255, 188, 107), rgb(255, 202, 88)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">
+            <h1 class="text-center text-6xl text-orange-500">Seek the Best</h1>
+            <p class="text-lg text-center mt-3 text-orange-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam tenetur id nulla porro error doloremque similique quibusdam repudiandae modi.</p>
         </div>
-        <!-- Item 2 -->
-        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="active">
-            <img src="img/why.jpg" class="pointer-events-none absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        <div class=" ">
+            <canvas id="motor" class="w-full"></canvas>
         </div>
-        <!-- Item 3 -->
-        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="">
-            <img src="img/why.jpg" class="pointer-events-none absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out absolute inset-0 transition-all transform" data-carousel-item="">
-            <img src="img/why.jpg" class="pointer-events-none absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out absolute inset-0 transition-all transform" data-carousel-item="">
-            <img src="img/why.jpg" class="pointer-events-none absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        <div class="flex justify-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+            <a class="mb-20" href="/catalog">
+                <div class="bg-orange-400 border-2 px-8 border-opacity-50 border-orange-300 opacity-90 hover:bg-orange-300 text-gray-800 font-semibold first:rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <p class="text-white m-4">See What's New</p>
+                </div>
+            </a>
         </div>
     </div>
-</div>
-
-
-    <h1 class="text-white text-center text-3xl font-bold mt-4 md:mt-12" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="0">Browse our Catalog</h1>
-    <div class="flex justify-center shadow-2xl" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-        <a class="mt-4 mb-20" href="/catalog">
-            <div class="bg-orange-400 mt-6 border-2 px-8 border-opacity-50 border-orange-300 opacity-90 hover:bg-orange-300 text-gray-800 font-semibold first:rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                <p class="text-white m-4">Browse</p>
-            </div>
-        </a>
-    </div>
-</div>
 
 <div class="bg-gradient-to-br from-gray-200 via-gray-400 to-gray-700 pt-24 relative">
 
@@ -129,6 +109,145 @@ background-size: cover;">
         
     </div>        
 </div>
+
+<script type="module">
+
+    let model;
+
+    const canvas = document.querySelector('#motor');
+    const renderer = new THREE.WebGLRenderer({canvas, alpha: true});
+    renderer.setPixelRatio(window.devicePixelRatio)
+    //renderer.setSize( window.innerWidth, window.innerHeight );
+
+    const fov = 95;
+    const aspect = 0;  // the canvas default
+    const near = 0.01;
+    const far = 5;
+    const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+
+    camera.position.z = 1;
+    camera.position.y = 1;
+    camera.position.x = 1;
+
+    const control = new OrbitControls(camera, renderer.domElement);
+    control.enablePan = false;
+    control.enableZoom = false;
+    control.maxPolarAngle = Math.PI / 2;
+    control.minPolarAngle = Math.PI / 2;
+    control.minDistance = 1.85;
+    control.enableDamping = true;
+
+    const scene = new THREE.Scene();
+
+    // const boxWidth = 1;
+    // const boxHeight = 1;
+    // const boxDepth = 1;
+    // const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+    // const texture = new THREE.TextureLoader().load( '/img/what.jpg' );
+    // const material = new THREE.MeshBasicMaterial({map: texture});
+    // const cube = new THREE.Mesh(geometry, material);
+
+    renderer.render(scene, camera);
+
+    const loader = new GLTFLoader();
+
+    loader.load( '/3d/motor.glb', function ( gltf ) {
+
+        console.log(gltf);
+        model = gltf.scene;
+
+        model.scale.set(0.03, 0.03, 0.03);
+        model.position.y = -0.5;
+        model.rotation.x = 4.75;
+        model.rotation.z = 1.5;
+
+        scene.add( model );
+
+    }, undefined, function ( error ) {
+
+        console.error( error );
+
+    } );
+
+    /* const axesHelper = new THREE.AxesHelper( 5 );
+    scene.add( axesHelper ); */
+
+    var color1 = 0xe6e6fa;
+    var color2 = 0xFFFFFF;
+    var color3 = 0x34fabd;
+    var color4 = 0xdb23a2;
+    const intensity1 = 1;
+    const intensity2 = 0.75;
+    const intensity3 = 1.75;
+    const light1 = new THREE.DirectionalLight(color1, intensity3);
+    const light2 = new THREE.DirectionalLight(color2, intensity1);
+    const light3 = new THREE.DirectionalLight(color2, intensity3);
+    const light4 = new THREE.DirectionalLight(color3, intensity3);
+    const light5 = new THREE.DirectionalLight(color4, intensity3);
+    light1.position.set(-1, 2, 4);
+    light3.position.set(1, -2, -4);
+    light2.position.set(1, -2, 4);
+    light4.position.set(-1, -2, 4);
+    light5.position.set(1, 3, -4);
+    scene.add(light1);
+    scene.add(light2);
+    scene.add(light3);
+    scene.add(light4);
+    scene.add(light5);
+
+    function render(time) {
+    time *= 0.0005;  // convert time to seconds
+    
+    // cube.rotation.x = time;
+    // cube.rotation.y = time;
+
+    if (model !== undefined) {
+        model.rotation.z = time;
+    }
+
+    var inverval_timer; 
+
+    inverval_timer = setInterval(function() { 
+
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        color1 = "0x" + randomColor;
+        color2 = "0x" + randomColor;
+        color3 = "0x" + randomColor;
+        color4 = "0x" + randomColor;
+
+        /* light1.color.setHex(color1);
+        light2.color.setHex(color2);
+        light3.color.setHex(color2);
+        light4.color.setHex(color3);
+        light5.color.setHex(color4); */
+    }, 10000);
+
+    control.update();
+
+    if (resizeRendererToDisplaySize(renderer)) {
+        const canvas = renderer.domElement;
+        camera.aspect = canvas.clientWidth / canvas.clientHeight;
+        camera.updateProjectionMatrix();
+    }
+    
+    renderer.render(scene, camera);
+    
+    requestAnimationFrame(render);
+    }
+
+    function resizeRendererToDisplaySize(renderer) {
+        const canvas = renderer.domElement;
+        const width = canvas.clientWidth;
+        const height = canvas.clientHeight;
+        const needResize = canvas.width !== width || canvas.height !== height;
+        if (needResize) {
+            renderer.setSize(width, height, false);
+        }
+        return needResize;
+    }
+
+    requestAnimationFrame(render);
+</script>
 
 
 @endsection
