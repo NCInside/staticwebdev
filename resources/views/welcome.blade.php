@@ -247,7 +247,7 @@ background-size: cover;">
         return needResize;
     }
 
-    requestAnimationFrame(render);
+    render();
 </script>
 
 
