@@ -350,7 +350,7 @@
             return needResize;
         }
 
-        requestAnimationFrame(render);
+        render();
     </script>
   
 @endsection
