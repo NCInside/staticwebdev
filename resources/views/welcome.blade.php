@@ -179,11 +179,11 @@ background-size: cover;">
     const intensity1 = 1;
     const intensity2 = 0.75;
     const intensity3 = 1.75;
-    const light1 = new THREE.DirectionalLight(color1, intensity3);
-    const light2 = new THREE.DirectionalLight(color2, intensity1);
-    const light3 = new THREE.DirectionalLight(color2, intensity3);
-    const light4 = new THREE.DirectionalLight(color3, intensity3);
-    const light5 = new THREE.DirectionalLight(color4, intensity3);
+    const light1 = new THREE.DirectionalLight(color1, intensity2);
+    const light2 = new THREE.DirectionalLight(color2, intensity3);
+    const light3 = new THREE.DirectionalLight(color2, intensity2);
+    const light4 = new THREE.DirectionalLight(color3, intensity1);
+    const light5 = new THREE.DirectionalLight(color4, intensity2);
     light1.position.set(-1, 2, 4);
     light3.position.set(1, -2, -4);
     light2.position.set(1, -2, 4);
@@ -195,6 +195,24 @@ background-size: cover;">
     scene.add(light4);
     scene.add(light5);
 
+    //interval every 5 seconds
+    setInterval(function() {var randomColor1 = Math.floor(Math.random()*16777215).toString(16);
+        var randomColor2 = Math.floor(Math.random()*16777215).toString(16);
+        var randomColor3 = Math.floor(Math.random()*16777215).toString(16);
+        var randomColor4 = Math.floor(Math.random()*16777215).toString(16);
+
+        color1 = "0x" + randomColor1;
+        color2 = "0x" + randomColor2;
+        color3 = "0x" + randomColor3;
+        color4 = "0x" + randomColor4;
+
+        light1.color.setHex(color1);
+        light2.color.setHex(color2);
+        light3.color.setHex(color2);
+        light4.color.setHex(color3);
+        light5.color.setHex(color4);
+        console.log("test");}, 5000);
+
     function render(time) {
     time *= 0.0005;  // convert time to seconds
     
@@ -204,24 +222,7 @@ background-size: cover;">
     if (model !== undefined) {
         model.rotation.z = time;
     }
-
-    var inverval_timer; 
-
-    inverval_timer = setInterval(function() { 
-
-        var randomColor = Math.floor(Math.random()*16777215).toString(16);
-        color1 = "0x" + randomColor;
-        color2 = "0x" + randomColor;
-        color3 = "0x" + randomColor;
-        color4 = "0x" + randomColor;
-
-        /* light1.color.setHex(color1);
-        light2.color.setHex(color2);
-        light3.color.setHex(color2);
-        light4.color.setHex(color3);
-        light5.color.setHex(color4); */
-    }, 10000);
-
+    
     control.update();
 
     if (resizeRendererToDisplaySize(renderer)) {
