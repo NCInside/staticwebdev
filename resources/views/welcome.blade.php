@@ -40,7 +40,7 @@ background-size: cover;">
             <canvas id="motor" class="w-full"></canvas>
         </div>
         <div class="flex justify-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
-            <a class="mb-20" href="/catalog">
+            <a class="mb-20" href="/new">
                 <div class="bg-orange-400 border-2 px-8 border-opacity-50 border-orange-300 opacity-90 hover:bg-orange-300 text-gray-800 font-semibold first:rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                     <p class="text-white m-4">See What's New</p>
                 </div>
