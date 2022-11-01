@@ -70,7 +70,7 @@ background-size: cover;">
     {{-- What and Why --}}
     <div class="flex flex-col">
         <div class="self-start mx-3 lg:mx-0">
-            <div data-aos="fade-up" class="lg:ml-48 flex flex-col-reverse items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-3xl overflow-hidden">
+            <div data-aos="fade-up" class="lg:ml-48 flex flex-col-reverse items-center bg-white rounded-lg shadow-md md:flex-row md:max-w-3xl overflow-hidden ">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">What is Primitive Garage?</h5>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ex. Ut, repudiandae ex. Suscipit facere rem, laboriosam sapiente facilis et sunt ratione vel voluptates velit, maiores veniam adipisci inventore quam.</p>
