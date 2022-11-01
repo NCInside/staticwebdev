@@ -31,10 +31,10 @@ background-size: cover;">
 
     <div class="bg-black w-full h-36 lg:h-72 hidden md:block" id="getstarted" ></div>
     
-    <div data-aos="fade-up" class="content-middle mb-16">
+    <div data-aos="fade-up" class="content-middle mb-16 relative">
         <div class="max-w-2xl m-auto p-5" style="font-family: 'Poppins'; background: linear-gradient(rgba(255, 168, 62, 0.988), rgb(255, 188, 107), rgb(255, 202, 88)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">
-            <h1 class="text-center text-6xl text-orange-500">Seek the Best</h1>
-            <p class="text-lg text-center mt-3 text-orange-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam tenetur id nulla porro error doloremque similique quibusdam repudiandae modi.</p>
+            <h1 class="text-center text-6xl text-orange-500" style="font-size: 4rem">Seek the Best</h1>
+            <p class="text-sm md:text-lg text-center mt-3 text-orange-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam tenetur id nulla porro error doloremque similique quibusdam repudiandae modi.</p>
         </div>
         <div class=" ">
             <canvas id="motor" class="w-full"></canvas>
@@ -48,7 +48,7 @@ background-size: cover;">
         </div>
     </div>
 
-<div class="bg-gradient-to-br from-gray-200 via-gray-400 to-gray-700 pt-24 relative">
+<div class="bg-gradient-to-b from-black via-black to-neutral-900 relative">
 
     <div data-aos="fade-in" class="hidden lg:block absolute top-24 lg:left-72 w-96 h-72 bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000" ></div>
     <div data-aos="fade-in" class="hidden lg:block absolute top-28 lg:left-48 w-96 h-72 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob" ></div>
@@ -179,12 +179,12 @@ background-size: cover;">
     const intensity1 = 1;
     const intensity2 = 0.75;
     const intensity3 = 1.75;
-    const light1 = new THREE.DirectionalLight(color1, intensity2);
-    const light2 = new THREE.DirectionalLight(color2, intensity3);
+    const light1 = new THREE.DirectionalLight(color1, intensity3);
+    const light2 = new THREE.DirectionalLight(color2, intensity2);
     const light3 = new THREE.DirectionalLight(color2, intensity2);
-    const light4 = new THREE.DirectionalLight(color3, intensity1);
-    const light5 = new THREE.DirectionalLight(color4, intensity2);
-    light1.position.set(-1, 2, 4);
+    const light4 = new THREE.DirectionalLight(color3, intensity2);
+    const light5 = new THREE.DirectionalLight(color4, intensity3);
+    light1.position.set(-1, -2, 4);
     light3.position.set(1, -2, -4);
     light2.position.set(1, -2, 4);
     light4.position.set(-1, -2, 4);
