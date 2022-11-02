@@ -34,7 +34,7 @@ background-size: cover;">
         <div class="max-w-2xl m-auto" style="font-family: 'Poppins'; background: linear-gradient(rgba(253, 253, 253, 0.988), rgb(255, 246, 235), rgb(255, 227, 168)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">
             <h1 class="block md:hidden text-center text-3xl">Seek the Best</h1>
             <h1 class="hidden md:block text-center text-6xl mb-8">Seek the Best</h1>
-            <p class="text-sm md:text-lg text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam tenetur id nulla porro error doloremque similique quibusdam repudiandae modi.</p>
+            <p class="text-sm md:text-lg text-center mt-3">Primitive Garage merupakan tempat yang tepat bagi kalian yang menginginkan miniatur automotif roda dua dengan harga terjangkau dan kualitas terbaik.</p>                                
         </div>
         <div class=" ">
             <canvas id="motor" class="w-full"></canvas>

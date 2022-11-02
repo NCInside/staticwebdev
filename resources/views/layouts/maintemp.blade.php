@@ -34,6 +34,7 @@
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="/" class="flex items-center">
+                <img class="mt-3 h-6 sm:h-9" src="/img/logo_pg.jpg" alt="logo">
                 <h1 class="text-lg sm:text-xl font-bold">PRIMITIVE <b class="text-orange-600 text-3xl">-</b> GARAGE</h1>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -66,16 +67,16 @@
             </div>
             <div class="mt-4 flex flex-col-reverse md:flex-row md:justify-between">
                 <div class="mb-6 md:mb-0">
-                    <p class="text-white text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime suscipit nobis fuga modi quo. Temporibus voluptatibus quia eum earum incidunt nobis ab error, iusto nemo facere non facilis dolorem inventore!</p>
+                    <p class="text-white text-lg"> Untuk persoalan mengenai pemesanan, komplain, atau request custom order dapat menghubi langsung pada contact kami.</p>
                 </div>
                 <div class="flex sm:ml-4 space-x-6 sm:justify-end sm:mt-0">
-                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="https://instagram.com/primitive_garage?igshid=YmMyMTA2M2Y=" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <img class="object-cover h-24 w-64 md:h-52 md:w-60" src="/img/logo_ig.png" alt="IG">
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="https://www.youtube.com/channel/UCR7GWs69K3KbA00kwQdYF8A" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <img class="object-cover h-24 w-64 md:h-40 md:w-60" src="/img/logo_yt.png" alt="YT">
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="https://wa.me/6281297656789" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <img class="object-cover h-24 w-64 md:h-40 md:w-60" src="/img/logo_wa.png" alt="WA">
                     </a>
                 </div>
