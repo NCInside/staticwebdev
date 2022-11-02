@@ -21,7 +21,7 @@
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0e0e 40px ), repeating-linear-gradient( #00000055, #000000 );">
 
         <h1 class="text-center text-3xl md:text-5xl font-semibold my-8">Want a miniature of your own?</h1>
-        <div class="flex flex-col-reverse md:flex-row m-8 pb-8">
+        <div class="flex flex-col-reverse md:flex-row m-8 pb-8  lg:mx-48">
             <div class="ml-6">
                 <p class="my-6 mr-6 text-center md:text-left text-base md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, odio neque ipsa cum aut cumque, deleniti excepturi maxime et aperiam consequatur vel, facere nesciunt obcaecati. Aliquam repudiandae iusto doloribus officiis.</p>
                 <p class="my-6 mr-6 text-center md:text-left text-base md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id harum ex maxime fugit repellat eaque nihil, quisquam est adipisci officiis! Dolorum facilis sit aut accusamus nulla excepturi eius atque obcaecati!</p>

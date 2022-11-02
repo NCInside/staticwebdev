@@ -16,10 +16,10 @@
         <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">All Miniatures</h1>
     </div>
 
-    <div class="bg-gradient-to-b from-black via-neutral-900 to-black relative p-4 md:p-12" style="background-color: #0e0e0e;
+    <div class="bg-gradient-to-b from-black via-neutral-900 to-black relative p-4 md:pt-12" style="background-color: #0e0e0e;
     opacity: 1;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0e0e 40px ), repeating-linear-gradient( #00000055, #000000 );">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 content-center md:ml-6">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 content-center md:ml-8 md:pt-12">
             
             <x-product-catalog imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" name="Noteworthy technology acquisitions 2021"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />

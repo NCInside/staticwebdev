@@ -99,7 +99,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0
 
         <section data-aos="fade-up" class="font-sans antialiased text-white leading-normal tracking-wider md:mt-32 md:mb-16">
             <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-24 mb-16 lg:my-0">
-                <div id="profile" class="relative w-full lg:w-2/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-900 mx-6 lg:mx-0">
+                <div id="profile" class="relative w-full lg:w-2/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-gradient-to-b from-neutral-900 via-neutral-800 to-neutral-900 mx-6 lg:mx-0">
                     <div class="p-4 md:p-12 text-center lg:text-left">
                         <!-- Image for mobile view-->
                         <div class="block md:hidden rounded-full ring-2 ring-orange-400 lg:rounded-xl shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('img/who.jpg')"></div>
