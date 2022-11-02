@@ -22,13 +22,13 @@
         <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 content-center md:ml-8 md:pt-12">
             
             <x-product-catalog imgsrc="/img/mooneyes.jpg" name="Mooneyes Volkspod with Boxer Engine"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="mooneyesModal" />
 
             <x-product-catalog imgsrc="/img/yamaha.JPG" name="Yamaha XT500 Norev"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="yamahaModal" />
 
             <x-product-catalog imgsrc="/img/speedy.jpg" name="Speedy Trinity"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="speedyModal" />
 
             <x-product-catalog imgsrc="/img/norton.jpg" name="Norton Manx Solido"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
@@ -42,7 +42,19 @@
         </div>  
     </div>
     
-    <x-modal-review modalId="defaultModal" imgsrc="/img/mooneyes.jpg" prodName="Noteworthy technology acquisitions 2021">
+    <x-modal-review modalId="mooneyesModal" imgsrc="/img/mooneyes.jpg" prodName="Noteworthy technology acquisitions 2021">
+        <x-chat-review name="Anthony Gondokusumo" reviews="Gila keren bang, stylenya estetik banget" time="12:45 pm" score=4.95 />
+        <x-chat-review name="Bayu Tri" reviews="WOW" time="12:45 pm" score=4.95 />
+        <x-chat-review name="gading K" reviews="Edyan" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="yamahaModal" imgsrc="/img/yamaha.jpg" prodName="Noteworthy technology acquisitions 2021">
+        <x-chat-review name="omarannas" reviews="Keren sekali ini mas" time="12:45 pm" score=4.95 />
+        <x-chat-review name="garasi mini project" reviews="Aku selalu suka!" time="12:45 pm" score=4.95 />
+        <x-chat-review name="flameink_go" reviews="Jiga rangka asli euy" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="speedyModal" imgsrc="/img/speedy.jpg" prodName="Noteworthy technology acquisitions 2021">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
