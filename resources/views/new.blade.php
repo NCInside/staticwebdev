@@ -28,12 +28,12 @@
             </div>
         </div>
 
-        <div class="py-16">
+        <div class="py-16 max-[400px]:py-8">
             <div class="m-8">
                 <div class="grid md:grid-cols-5 md:h-72 md:grid-rows-none grid-rows-2">
                     <div class="m-8 md:col-span-2">
                         <h1 class="text-center md:text-left text-3xl md:text-5xl">Birthyearbike (panshovel)</h1>
-                        <h5 class="text-center md:text-left text-base md:text-xl mt-6 pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quo ipsum suscipit ex dolores vero hic veritatis cum dolor nostrum.</h5>
+                        <h5 class="text-center md:text-left text-base md:text-xl mt-6 pb-5">"The greatest glory in living lies not in never failing, but in rising every time we fell"</h5>
                     </div>
                     <div class="md:col-span-3 flex justify-end z-1">
                         <img class="object-cover" src="/img/idk1.jpg" alt="">
