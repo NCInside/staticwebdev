@@ -16,7 +16,9 @@
         <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">What's New</h1>
     </div>
 
-    <div class="bg-gradient-to-b from-black via-neutral-900 to-black text-white p-4">
+    <div class="bg-gradient-to-b from-black via-neutral-900 to-black text-white p-4 overflow-visible" style="background-color: #0e0e0e;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0e0e 40px ), repeating-linear-gradient( #00000055, #000000 );">
 
         <h1 class="text-center text-3xl md:text-5xl font-semibold my-8">Want a miniature of your own?</h1>
         <div class="flex flex-col-reverse md:flex-row m-8 pb-8">

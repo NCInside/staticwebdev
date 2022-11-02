@@ -18,20 +18,19 @@ background-size: cover;">
         <h1 class="text-white text-center text-3xl font-bold md:hidden block" style="font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; background: linear-gradient(rgba(255, 168, 62, 0.988), rgb(255, 188, 107), rgb(255, 202, 88)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">HOME TO <br><b class="font-extrabold">PRIMITIVE-GARAGE</b></h1>
         <p class="text-gray-100 text-center mx-4 md:mt-12 mt-6">Purchase Premium Quality Miniatures Today</p>
     </div>
-    <div class="hidden lg:flex justify-center shadow-2xl">
+    <div class="hidden lg:flex justify-center shadow-2xl overflow-visible">
         <a href="#getstarted">
-            <div data-aos-easing="ease-out-cubic" class="bg-orange-400 mt-20 border-2 border-opacity-50 border-orange-300 opacity-90 hover:bg-orange-300 text-gray-800 font-semibold px-4 rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <div data-aos-easing="ease-out-cubic" class="bg-orange-400 mt-20 border-2 border-opacity-50 border-orange-300 hover:bg-orange-300 text-gray-800 font-semibold px-4 rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <p class="text-white m-4">Get Started</p>
             </div>
         </a>
     </div>
 </div>
-{{-- carousel--}}
 <div class="bg-black">
 
-    <div class="bg-black w-full h-36 lg:h-72 hidden md:block" id="getstarted" ></div>
+    <div class="bg-black w-full h-36 lg:h-72 overflow-visible hidden md:block" id="getstarted" ></div>
     
-    <div data-aos="fade-up" class="content-middle md:-mt-24 mb-16 relative">
+    <div data-aos="fade-up" class="content-middle md:-mt-24 relative overflow-hidden">
         <div class="max-w-2xl m-auto" style="font-family: 'Poppins'; background: linear-gradient(rgba(253, 253, 253, 0.988), rgb(255, 246, 235), rgb(255, 227, 168)); -webkit-text-fill-color: transparent; -webkit-background-clip: text; background-clip: text;">
             <h1 class="block md:hidden text-center text-3xl">Seek the Best</h1>
             <h1 class="hidden md:block text-center text-6xl mb-8">Seek the Best</h1>
@@ -40,8 +39,8 @@ background-size: cover;">
         <div class=" ">
             <canvas id="motor" class="w-full"></canvas>
         </div>
-        <div class="flex justify-center md:-mt-8" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
-            <a class="mb-20" href="/new">
+        <div class="flex justify-center overflow-visible md:-mt-8" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+            <a class="mb-10" href="/new">
                 <div class="bg-orange-400 border-2 px-8 border-opacity-50 border-orange-300 opacity-90 hover:bg-orange-300 text-gray-800 font-semibold first:rounded shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                     <p class="text-white m-4">See What's New</p>
                 </div>
@@ -49,7 +48,9 @@ background-size: cover;">
         </div>
     </div>
 
-<div class="bg-gradient-to-b from-black via-neutral-900 to-black relative">
+<div class="bg-gradient-to-b from-black via-neutral-900 to-black relative pt-12" style="background-color: #0e0e0e;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0e0e 40px ), repeating-linear-gradient( #00000055, #000000 );">
 
     {{--ini cuman bisa kalo background terang--}}    
     <div data-aos="fade-in" class="hidden lg:block absolute top-24 lg:left-72 w-96 h-72 bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000" ></div>
@@ -76,8 +77,8 @@ background-size: cover;">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 md:mb-6 text-2xl font-bold tracking-wider text-white dark:text-white underline decoration-orange-400">What is Primitive Garage?</h5>
                     <p class="mb-3 font-normal text-white leading-loose">
-                        Primitive Garage is <b class="underline decoration-orange-400">THE</b> place to find a wide variety of handcrafted and specialized motorcycle miniatures, all made in-house.
-                        Ever since 2014, Primitive Garage's beautiful miniatures has fostered a strong community that continues to support it to this day.
+                        Primitive Garage adalah tempat untuk menemukan berbagai macam miniatur sepeda motor buatan tangan dan spesial yang dibuat secara in-house.
+                        Sejak tahun 2014, miniatur-miniatur Primitive Garage telah memupuk komunitas kuat yang terus mendukungnya hingga hari ini.
                     </p>
                 </div>
                 <img class="object-cover w-full h-full rounded-t-lg md:h-auto md:w-64 terpaksa md:rounded-none overflow-hidden md:border-l-2 border-orange-400" src="img/why.jpg" alt="">      
@@ -85,15 +86,12 @@ background-size: cover;">
         </div>
         
         <div class="self-end mx-3 lg:mx-0">
-            <div data-aos="fade-up" class="lg:mr-48 mt-24 flex flex-col items-center bg-gradient-to-b from-neutral-900 via-neutral-800 to-neutral-900 rounded-lg shadow-md md:flex-row md:max-w-3xl overflow-hidden">
+            <div data-aos="fade-up" class="lg:mr-48 mt-12 flex flex-col items-center bg-gradient-to-b from-neutral-900 via-neutral-800 to-neutral-900 rounded-lg shadow-md md:flex-row md:max-w-3xl overflow-hidden">
                 <img class="terpaksa object-cover w-full h-full rounded-t-lg md:h-auto md:w-52 md:rounded-none md:rounded-l-lg md:border-r-2 border-orange-400" src="img/what.jpg" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 md:mb-6 text-2xl font-bold tracking-wider text-white underline decoration-orange-400">Why Choose Primitive Garage?</h5>
                     <p class="mb-3 font-normal text-white leading-loose">
-                        Equipped with the knowledge and tools acquired throughout the past 8 years, Primitive Garage has crafted 
-                        a multitude of unique miniatures based off of non-fiction and fiction alike. Having worked in the International 
-                        Mandalika Circuit as an official art worker, Primitive Garage displays a level of professionalism and skill
-                        that is unrivaled.
+                        Dilengkapi dengan pengetahuan dan peralatan yang diperoleh selama 8 tahun terakhir, Primitive Garage telah membuat banyak miniatur unik berdasarkan non-fiksi dan fiksi. Setelah bekerja di Sirkuit Internasional Mandalika sebagai pekerja seni resmi, Garasi Primitif menampilkan tingkat profesionalisme dan keterampilan yang tak tertandingi.
                     </p>
                 </div>
             </div>
