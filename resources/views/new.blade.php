@@ -5,11 +5,18 @@
 @section('content')
 
     {{-- masthead --}}
-    <div class="bg-filled bg-no-repeat bg-bottom pt-32 pb-64 relative" style="background-image: url('img/catalogmasthead.jpg')">
+    <div class="bg-filled bg-no-repeat bg-bottom pt-32 pb-64 relative" style="height: auto;
+    min-height: 34rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(56, 56, 56, 0.035) 0%, rgba(0, 0, 0, 0.7) 75%, rgba(0, 0, 0, 0.763) 100%), url('img/catalogmasthead.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;">
         <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">What's New</h1>
     </div>
 
-    <div class="bg-gradient-to-br from-gray-100 via-gray-300 to-gray-500 p-4">
+    <div class="bg-gradient-to-b from-black via-neutral-900 to-black text-white p-4">
 
         <h1 class="text-center text-3xl md:text-5xl font-semibold my-8">Want a miniature of your own?</h1>
         <div class="flex flex-col-reverse md:flex-row m-8 pb-8">
