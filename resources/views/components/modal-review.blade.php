@@ -19,7 +19,7 @@
                     <a href="#">
                         <img class="rounded-t-lg object-cover md:w-80 md:h-48 pr-4" src={{ $imgsrc }} alt="">
                     </a>
-                    <h5 class="mb-2 text-lg md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $prodName }}</h5>
+                    <h5 class="mb-2 pr-2 text-lg md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $prodName }}</h5>
                 </div>
                 <div class="flex flex-col mb-2 overflow-auto max-h-56 sm:max-h-80">
                     {{ $slot }}
