@@ -31,13 +31,13 @@
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="speedyModal" />
 
             <x-product-catalog imgsrc="/img/norton.jpg" name="Norton Manx Solido"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="norton" />
 
             <x-product-catalog imgsrc="/img/garuda.jpg" name="GARUDA"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="garuda" />
 
             <x-product-catalog imgsrc="/img/gareng.jpg" name="GARENG"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="gareng" />
 
         </div>  
     </div>
@@ -54,9 +54,21 @@
         <x-chat-review name="flameink_go" reviews="Jiga rangka asli euy" time="12:45 pm" score=4.95 />
     </x-modal-review>
 
-    <x-modal-review modalId="speedyModal" imgsrc="/img/speedy.jpg" prodName="Noteworthy technology acquisitions 2021">
+    <x-modal-review modalId="yamahaModal" imgsrc="/img/yamaha.jpg" prodName="Noteworthy technology acquisitions 2021">
+        <x-chat-review name="omarannas" reviews="Keren sekali ini mas" time="12:45 pm" score=4.95 />
+        <x-chat-review name="garasi mini project" reviews="Aku selalu suka!" time="12:45 pm" score=4.95 />
+        <x-chat-review name="flameink_go" reviews="Jiga rangka asli euy" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="norton" imgsrc="/img/norton.jpg" prodName="Norton Manx Solido">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="garuda" imgsrc="/img/garuda.jpg" prodName="GARUDA">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="gareng" imgsrc="/img/gareng.jpg" prodName="GARENG">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
     </x-modal-review>
 
