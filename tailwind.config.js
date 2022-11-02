@@ -36,7 +36,10 @@ module.exports = {
                     },
                 }
             },
-
+            height: {
+                '128': '32rem',
+                '112': '28rem'
+            }
         },
     },
 

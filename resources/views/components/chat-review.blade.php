@@ -9,7 +9,7 @@
         {{ $time }}
     </p>
 </div>
-<div class="flex flex-col md:flex-row mt-2 mb-4">
+<div class="flex mt-2 mb-4">
     <div class="flex items-center">
         @for ($i = 0; $i < 5; $i++)
             @if ($i < floor($score))

@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;">
-        <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">All Miniatures</h1>
+        <h1 class="text-white text-4xl font-bold pl-4 underline decoration-orange-600 absolute bottom-0 left-0 h-24">Past Miniatures</h1>
     </div>
 
     <div class="bg-gradient-to-b from-black via-neutral-900 to-black relative p-4 md:pt-12" style="background-color: #0e0e0e;
@@ -21,25 +21,28 @@
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0e0e 40px ), repeating-linear-gradient( #00000055, #000000 );">
         <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 content-center md:ml-8 md:pt-12">
             
-            <x-product-catalog imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" name="Noteworthy technology acquisitions 2021"
+            <x-product-catalog imgsrc="/img/mooneyes.jpg" name="Mooneyes Volkspod with Boxer Engine"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
 
-            <x-product-catalog imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" name="Noteworthy technology acquisitions 2021"
+            <x-product-catalog imgsrc="/img/yamaha.JPG" name="Yamaha XT500 Norev"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
 
-            <x-product-catalog imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" name="Noteworthy technology acquisitions 2021"
+            <x-product-catalog imgsrc="/img/speedy.jpg" name="Speedy Trinity"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
 
-            <x-product-catalog imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" name="Noteworthy technology acquisitions 2021"
+            <x-product-catalog imgsrc="/img/norton.jpg" name="Norton Manx Solido"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
 
-            <x-product-catalog imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" name="Noteworthy technology acquisitions 2021"
+            <x-product-catalog imgsrc="/img/garuda.jpg" name="GARUDA"
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+
+            <x-product-catalog imgsrc="/img/gareng.jpg" name="GARENG"
             desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
 
         </div>  
     </div>
     
-    <x-modal-review modalId="defaultModal" imgsrc="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/24/367aa915-8b2d-4162-9687-ee7fa0f0c2cc.jpg" prodName="Noteworthy technology acquisitions 2021">
+    <x-modal-review modalId="defaultModal" imgsrc="/img/mooneyes.jpg" prodName="Noteworthy technology acquisitions 2021">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />

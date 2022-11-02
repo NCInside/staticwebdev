@@ -1,5 +1,5 @@
 <!-- Main modal -->
-<div id={{ $modalId }} tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-32 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
+<div id={{ $modalId }} tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-10 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
     <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
         <!-- Modal content -->
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -14,10 +14,10 @@
                 </button>
             </div>
             <!-- Modal body -->
-            <div class="p-6 space-y-4 flex flex-row">
-                <div>
+            <div class="p-6 space-y-4 flex flex-col md:flex-row">
+                <div class="flex flex-col items-center justify-center">
                     <a href="#">
-                        <img class="rounded-t-lg object-cover w-64" src={{ $imgsrc }} alt="">
+                        <img class="rounded-t-lg object-cover md:w-80 md:h-48 pr-4" src={{ $imgsrc }} alt="">
                     </a>
                     <h5 class="mb-2 text-lg md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $prodName }}</h5>
                 </div>
