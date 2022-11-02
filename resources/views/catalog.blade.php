@@ -22,29 +22,47 @@
         <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 content-center md:ml-8 md:pt-12">
             
             <x-product-catalog imgsrc="/img/mooneyes.jpg" name="Mooneyes Volkspod with Boxer Engine"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="mooneyes" />
 
             <x-product-catalog imgsrc="/img/yamaha.JPG" name="Yamaha XT500 Norev"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="yamaha" />
 
             <x-product-catalog imgsrc="/img/speedy.jpg" name="Speedy Trinity"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="speedy" />
 
             <x-product-catalog imgsrc="/img/norton.jpg" name="Norton Manx Solido"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="norton" />
 
             <x-product-catalog imgsrc="/img/garuda.jpg" name="GARUDA"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="garuda" />
 
             <x-product-catalog imgsrc="/img/gareng.jpg" name="GARENG"
-            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="defaultModal" />
+            desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." modalId="gareng" />
 
         </div>  
     </div>
     
-    <x-modal-review modalId="defaultModal" imgsrc="/img/mooneyes.jpg" prodName="Noteworthy technology acquisitions 2021">
+    <x-modal-review modalId="mooneyes" imgsrc="/img/mooneyes.jpg" prodName="Mooneyes Volkspod with Boxer Engine">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="yamaha" imgsrc="/img/yamaha.JPG" prodName="Yamaha XT500 Norev">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="speedy" imgsrc="/img/speedy.jpg" prodName="Speedy Trinity">
+        <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="norton" imgsrc="/img/norton.jpg" prodName="Norton Manx Solido">
+        <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="garuda" imgsrc="/img/garuda.jpg" prodName="GARUDA">
+        <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
+    </x-modal-review>
+
+    <x-modal-review modalId="gareng" imgsrc="/img/gareng.jpg" prodName="GARENG">
         <x-chat-review name="Tom Cruise" reviews="Hi all! I have one question for the movie" time="12:45 pm" score=4.95 />
     </x-modal-review>
 
