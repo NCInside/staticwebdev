@@ -47,7 +47,7 @@
                 <h1 class="text-lg sm:text-3xl text-white font-bold">PRIMITIVE <b class="text-orange-600">-</b> GARAGE</h1>
                 <hr class="my-1 w-auto h-1 bg-white rounded border-0 md:my-2">
             </div>
-            <div class="mt-4 flex flex-col-reverse md:flex-row md:justify-between">
+            <div class="mt-6 flex flex-col-reverse md:flex-row md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <p class="text-white text-lg"> Untuk persoalan mengenai pemesanan, komplain, atau request custom order dapat menghubi langsung pada contact kami.</p>
                 </div>
