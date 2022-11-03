@@ -48,7 +48,7 @@
                     <div class="m-8 col-span-5 md:col-span-2 flex items-center">
                         <div class="ml-6 lg:flex-col justify-center items-center w-max">
                             <h1 class="text-4xl text-center pb-5">Order Now</h1>
-                            <a href="">
+                            <a href="https://wa.me/6281297656789">
                                 <div class="bg-orange-400 rounded-lg font-semibold text-white text-center text-lg px-3 py-2">Contact WA</div>
                             </a>
                         </div>
