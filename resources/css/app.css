@@ -37,3 +37,20 @@
 											  transparent 75%,
 											  transparent)
 }
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow: visible;
+}
+@media screen and (min-width:768px) {
+	.terpaksa {
+		max-width: 40%;  
+		height: auto;  
+	}
+	.terpaksa2{
+		max-width: 30%;
+		height: auto;
+	}       
+}

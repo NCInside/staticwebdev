@@ -31,13 +31,13 @@
             desc="(1:18 scale) tampil pada 'Mandalika Custom Show' November 2021" modalId="gareng" />
 
             <x-product-catalog imgsrc="/img/yamaha.JPG" name="Yamaha XT500 Norev"
-            desc="(1:18 scale)" modalId="yamaha" />
+            desc="(1:18 scale) Black and Yellow Colorway" modalId="yamaha" />
 
             <x-product-catalog imgsrc="/img/speedy.jpg" name="Speedy Trinity"
-            desc="(1:18 scale)" modalId="speedy" />
+            desc="(1:18 scale) Blue and Red American Stylez" modalId="speedy" />
 
             <x-product-catalog imgsrc="/img/norton.jpg" name="Norton Manx Solido"
-            desc="(1:18 scale)" modalId="norton" />
+            desc="(1:18 scale) Silver Colorway w/ live suspension" modalId="norton" />
 
         </div>  
     </div>
