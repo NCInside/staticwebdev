@@ -10,24 +10,6 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>@yield('title')</title>
-    <style>
-        html{
-            scroll-behavior: smooth;
-        }
-        body{
-            overflow: visible;
-        }
-        @media screen and (min-width:768px) {
-            .terpaksa {
-                max-width: 40%;  
-                height: auto;  
-            }
-            .terpaksa2{
-                max-width: 30%;
-                height: auto;
-            }       
-        }    
-    </style>
 </head>
 <body>
 
