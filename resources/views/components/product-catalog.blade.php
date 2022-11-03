@@ -1,4 +1,4 @@
-<div data-aos="fade-up" class="max-w-sm h-128 max-[400px]:h-112">
+<div data-aos="fade-up" class="max-w-sm h-112 max-[400px]:h-96">
     <a href="#">
         <img class="rounded-t-lg" src={{ $imgsrc }} alt="">
     </a>
