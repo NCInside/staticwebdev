@@ -1,6 +1,6 @@
 @extends('layouts.maintemp')
 
-@section('title', 'Home')
+@section('title', $title)
 
 @section('content')
 {{-- masthead --}}

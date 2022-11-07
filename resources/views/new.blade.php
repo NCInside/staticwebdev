@@ -1,6 +1,6 @@
 @extends('layouts.maintemp')
 
-@section('title', "What's New")
+@section('title', $title)
 
 @section('content')
 
@@ -29,32 +29,34 @@
         </div>
 
         <div class="py-16 max-[400px]:py-8">
-            <div class="m-8">
-                <div class="grid md:grid-cols-5 md:h-72 md:grid-rows-none grid-rows-2">
-                    <div class="m-8 md:col-span-2">
-                        <h1 class="text-center md:text-left text-3xl md:text-5xl">Birthyearbike (panshovel)</h1>
-                        <h5 class="text-center md:text-left text-base md:text-xl mt-6 pb-5">"The greatest glory in living lies not in never failing, but in rising every time we fell"</h5>
-                    </div>
-                    <div class="md:col-span-3 flex justify-end z-1">
-                        <img class="object-cover" src="/img/idk1.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="m-8">
-                <div class="grid grid-cols-5 md:h-72">
-                    <div class="hidden col-span-3 md:flex justify-start ml-8 z-0">
-                        <img class="object-cover" src="/img/idk2.jpg" alt="">
-                    </div>
-                    <div class="m-8 col-span-5 md:col-span-2 flex items-center">
-                        <div class="ml-6 lg:flex-col justify-center items-center w-max">
-                            <h1 class="text-4xl text-center pb-5">Order Now</h1>
-                            <a href="https://wa.me/6281297656789">
-                                <div class="bg-orange-400 rounded-lg font-semibold text-white text-center text-lg px-3 py-2">Contact WA</div>
-                            </a>
+            @foreach ($new_products as $np)
+                <div class="m-8">
+                    <div class="grid md:grid-cols-5 md:h-72 md:grid-rows-none grid-rows-2">
+                        <div class="m-8 md:col-span-2">
+                            <h1 class="text-center md:text-left text-3xl md:text-5xl">{{ $np['name'] }}</h1>
+                            <h5 class="text-center md:text-left text-base md:text-xl mt-6 pb-5">{{ $np['desc'] }}</h5>
+                        </div>
+                        <div class="md:col-span-3 flex justify-end z-1">
+                            <img class="object-cover" src="/img/{{ $np['img1'] }}" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="m-8">
+                    <div class="grid grid-cols-5 md:h-72">
+                        <div class="hidden col-span-3 md:flex justify-start ml-8 z-0">
+                            <img class="object-cover" src="/img/{{ $np['img2'] }}" alt="">
+                        </div>
+                        <div class="m-8 col-span-5 md:col-span-2 flex items-center">
+                            <div class="ml-6 lg:flex-col justify-center items-center w-max">
+                                <h1 class="text-4xl text-center pb-5">Order Now</h1>
+                                <a href="https://wa.me/6281297656789">
+                                    <div class="bg-orange-400 rounded-lg font-semibold text-white text-center text-lg px-3 py-2">Contact WA</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
         </div>
 
     </div>
