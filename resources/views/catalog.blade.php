@@ -30,7 +30,7 @@
     </div>
 
     @foreach ($products as $pr)
-        <x-modal-review :modalId="$pr['modalId']" imgsrc="/img/{{ $pr['imgsrc'] }}" :prodName="$pr['desc']">
+        <x-modal-review :modalId="$pr['modalId']" imgsrc="/img/{{ $pr['imgsrc'] }}" :prodName="$pr['name']">
         @foreach ($pr['reviews'] as $rv)
             <x-chat-review :name="$rv['name']" :reviews="$rv['reviews']" :time="$rv['time']" :score="$rv['score']" />
         @endforeach
